@@ -1,0 +1,15 @@
+// VScode와 연동(mouse hovering 하였을 때, 관련 정보를 표시할 수 있게 하기 위함)
+{
+  "compilerOptions": {
+    "baseUrl": ".", // 기본 경로를 현재 디렉터리로 설정
+    "paths": {
+      "@/*": ["src/*"] // '@' 별칭을 'src' 디렉터리로 매핑
+    }
+  },
+  "include": [
+    "src/**/*" // jsconfig가 프로젝트의 파일을 인식하도록 설정
+  ],
+  "exclude": [
+    "node_modules" // node_modules 디렉터리 제외
+  ]
+}
